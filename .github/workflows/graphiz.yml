@@ -14,9 +14,8 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: arbitraire
-        path: 
-          "*.svg"
-        path:
-          "Image/image.png"
+        path: |
+          - "*.svg"
+          - "Image/image.png"
 
         
