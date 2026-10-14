@@ -8,4 +8,5 @@ for a in *.dot;
         echo "traitement du fichier $a"
         a2="${a%.*}"
         $tool -Tsvg $a > $a2.svg
+        $tool -Tpng $a > $a2.png
 done
