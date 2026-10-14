@@ -16,6 +16,6 @@ jobs:
         name: arbitraire
         path: |
           - "*.svg"
-          - "Image/image.png"
+          - "image.png"
 
         
