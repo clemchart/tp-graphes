@@ -1,6 +1,6 @@
 graph {
     splines=line;
-    node [image="Image/image.png" shape="none"];
+    node [image="image.png" shape="none"];
     node [fixedsize=true, width=1.2, height=1, imagescale=true, labelloc=b, fontcolor=red];
     edge [fontsize=20, fontcolor=blue]
     
